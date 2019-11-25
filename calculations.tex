@@ -1,0 +1,84 @@
+\chapter{Calculations}\label{cha:Calculations}
+\section{Finding the non-contextual area}
+A notation used in this appendix, $\identity_x$ is known as the Identity matrix, with dimension x. \\
+By taking the operators $A_i$ as projector operators, then the operator can be written as 
+\begin{equation} \label{eq:Defop}
+A_i = \identity_3 - 2 |\psi_i><\psi_i|  
+\end{equation}
+To be able to calculate where the inequality may be unfulfilled, a state in a given place on the sphere must be taken.
+For instance, taking a state 
+\begin{equation}
+|\psi> = a_0|-1>+a_1|0>+a_2|1> 
+\end{equation}
+Remember from the introduction~\subsectionref{subsec:Dirac bra-ket notation}
+\begin{equation}
+|\psi>^\dagger = <\psi|=a_0^\dagger<-1|+a_1^\dagger<0|+a_2^\dagger<1| 
+\end{equation}
+Also it is important to remember that each of the taken states have been normalized and fulfil the following property:
+\begin{equation}
+<\psi|\psi> = a_0^2+a_1^2+a_2^2 = 1 
+\end{equation}
+The states used can be seen Cartesian unit vectors. To start with a simple case, which will be the case looked at in this thesis, let $a_i$ be real numbers, and using that $|\psi_i>$ was given in ~\subsectionref{subsec:Pentagon produced by the vectors}.
+
+Using these, equation~\ref{eq:Inequality} 
+\begin{equation*}
+\langle A_1 A_2 \rangle + \langle A_2 A_3 \rangle + \langle A_3 A_4 \rangle + \langle A_4 A_5 \rangle +
+\langle A_5 A_1 \rangle \geq -3
+\end{equation*}
+can be calculated by using the property
+\begin{equation} 
+\langle A_1 A_2 \rangle = <\psi|A_1 A_2|\psi>
+\end{equation} 
+This can be done through some ordinary linear algebra since we take the states as our basis vectors for our space. Also, not to forget that we defined the properties of the operators above, see equation~\ref{eq:Defop}. Since the vectors chosen in the operators, $|\psi_i>$, are pairwise orthogonal; the calculations seen below are almost trivial:
+\begin{equation}
+\begin{aligned}
+<\psi|A_1 A_2|\psi>=(a_0<-1|+a_1<0|+a_2<1|)(\identity_3-2|\psi_1><\psi_1|)(\identity_3-2|\psi_2><\psi_2|)*
+\\(a_0|-1>+a_1|0>+a_2|1>)
+\\=(a_0<-1|+a_1<0|+a_2<1|)*(\identity_3-2|\psi_1><\psi_1|-2|\psi_2><\psi_2|)*
+\\(a_0|-1>+a_1|0>+a_2|1>)
+\\=(a_0<-1|+a_1<0|+a_2<1|)*((a_0|-1>+a_1|0>+a_2|1>)
+\\-2a_2|1>-2(-0.5904a_0-0.8071a_1)|\psi_2>)
+\\=1-2a_2^2-2(-0.5904a_0-0.8071a_1)^2
+\end{aligned}
+\end{equation}
+Where in the last step the normality condition was used. Now the other calculations will be similar, the results and a few steps in the calculations are presented below.
+\begin{multline}
+<\psi|A_2 A_3|\psi>=(a_0<-1|+a_1<0|+a_2<1|)*(\identity_3-2|\psi_2><\psi_2|-2|\psi_3><\psi_3|)*
+\\(a_0|-1>+a_1|0>+a_2|1>)=1-2(-0.5904a_0-0.8071a_1)^2-
+\\2(0.7071a_0-0.5172a_1-0.4822a_2)^2
+\\
+<\psi|A_3 A_4|\psi>=(a_0<-1|+a_1<0|+a_2<1|)*(\identity_3-2|\psi_3><\psi_3|-2|\psi_4><\psi_4|)*
+\\(a_0|-1>+a_1|0>+a_2|1>)=1-2(0.7071a_0-0.5172a_1-0.4822a_2)^2-
+\\2(-0.7071a_0-0.5172a_1-0.4822a_2)^2
+\\
+<\psi|A_4 A_5|\psi=(a_0<-1|+a_1<0|+a_2<1|)*(\identity_3-2|\psi_4><\psi_4|-2|\psi_5><\psi_5|)*
+\\(a_0|-1>+a_1|0>+a_2|1>)=1-2(-0.7071a_0-0.5172a_1-0.4822a_2)^2-
+\\2(0.5904a_0-0.8071a_1)^2
+\\
+<\psi|A_5 A_1|\psi>=(a_0<-1|+a_1<0|+a_2<1|)*(\identity_3-2|\psi_5><\psi_5|-2|\psi_1><\psi_1|)*
+\\(a_0|-1>+a_1|0>+a_2|1>)=1-2(0.5904a_0-0.8071a_1)^2-2a_2^2
+\end{multline}
+Or a more general formula, with index i,j where the corresponding vectors are orthogonal, would be
+\begin{equation}
+\begin{aligned}
+<\psi|A_i A_j|\psi>=
+1-2<\psi|\psi_i><\psi_i|\psi>-2<\psi|\psi_j><\psi_j|\psi>
+\end{aligned}
+\end{equation}
+After all this the inequality can be written as 
+\begin{dmath}
+1-2a_2^2-2(-0.5904a_0-0.8071a_1)^2+1-2(-0.5905a_0-0.8071a_1)^2-
+2(0.7071a_0-0.5172a_1-0.4822a_2)^2+
+1-2(0.7071a_0-0.5172a_1-0.4822a_2)^2-
+2(-0.7071a_0-0.5172a_1-0.4822a_2)^2 +
+1-2(-0.7071a_0-0.5172a_1-0.4822a_2)^2-
+2(-0.5904a_0+0.8071a_1)^2+1-2(-0.5904a_0+0.8071a_1)^2-2a_2^2
+\geq -3
+\end{dmath}
+This is rewritten as the following:
+\begin{dmath}\label{eq:Area1}
+5-4a_2^2-4(-0.5904a_0-0.8071a_1)^2-4(0.7071a_0-0.5172a_1-0.4822a_2)^2
+-4(-0.7071a_0-0.5172a_1-0.4822a_2)^2-4(-0.5904a_0+0.8071a_1)^2 \geq -3
+\end{dmath}
+It is quite easy to see the generalization of this, as has been used in the thesis, though it is left to the reader to fill in the blanks them selves.
+This is all which is discussed in this appendix section.

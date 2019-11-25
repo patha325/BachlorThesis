@@ -1,0 +1,103 @@
+Slide1:
+	Name
+	Y-program
+	Supervisor.
+	Done over the summer.
+Slide2:
+	The outline of the presentation today.
+	Short introduction to what is needed.
+	Methods used in the thesis.
+	Data and results.
+	Conclusions.
+Slide3:
+	In this thesis the following was answered:
+	Does the inequality posed in the article Klyachko et al [2008] cover the real
+	part of the Bloch surface of a 3D quantum system when used as in Kochen
+	and Specker [1967]?
+Slide4:
+	Null
+Slide5:
+	In the beginning of the 20th century, some physical phenomena could not be
+	explained by classical physics, for example the ultra-violet disaster of any classical
+	model of of black-body radiation, and the photoelectric effect. 
+
+	It was these phenomena that led to the formulation of
+	quantum mechanics, where energy transfer is quantized and particles can act as
+	both waves and particles at the same time.\\
+
+	The basis equation in quantum mechanics is known as Schr\"odingers equation: 
+	which is a vector equation and requires the Hamiltonian for a system.
+Slide6:
+	From here the vector, wave-function is denoted as a state. This is known as a 
+	vector in hilbert space.
+Slide7:
+	Notice here how spin1 systems are written. Where the a:s are coefficients.
+Slide8/9:
+	Blochsphere where the modulus is 1. really only used for spin 1/2. we have used for spin 1 
+	with the restriction that all the coeffcients are real. They should really be complex. 
+	See the figure where z is spin 1/2 -z is spin -1/2. All inbetween represented by the sphere.
+Slide10:
+	What is contextuality?
+Slide11:
+	Contextuality refers to when the result of an experiment depends on the context
+	of the experiment.
+	This means that the set-up of the system will influence the
+	outcome of the measurements. 
+	The opposite of this is of course non-contextuality where the commuting property 
+	is not dependent on the experiment.
+	The noncontextuality inequalities are found through the hidden variable
+	schema which means that they might not hold for a quantum mechanical schema. 
+	The interesting case is where the inequality is violated in a quantum mechanical
+	description.
+Slide12:
+	The main inequality for this thesis.
+Slide13:
+	117 Vectors come from the Ks theorem. Using square spin componets in 3 orthogonal directions. 
+	Eigenvalues are 0 or 1. By finding a set of 3D vectos obeying red=1, blue=0.
+	It shall be impossible to colour each vector red or blue by using a subset containing one
+	blue and two red vectors.
+Slide14:
+	Null.
+Slide15:
+	Using the vectors given from Kochen and Specker [1967], 
+	which can be seen as 10 unique vectors which can be rotated to produce 117. 
+	These are used to evaluate the inequality will produce quadratic forms that are 
+	then drawn upon the Bloch sphere.
+Slide16:
+	Plotting the vectors. Pairwise orthogonal.
+Slide17/18:
+	Plotting the inequality.
+Slide19:
+	More vectors and inequalities can be created by rotating the first vectors around the x-axis and the (1,1,1)-axis.
+Slide20:
+	Null.
+Slide21/22:
+	Rotating the vectors around will produce an intersection between the inequalities, producing a band. 
+Slide23:
+	Skipping a few details, the whole sphere is covered, inbetween the different bands. RGB.
+Slide24:
+	Null.
+Slide25:
+	It seems that the whole sphere is covered by these inequalities, what does this mean? 
+	If the whole Bloch sphere is either inside or on the border of the inequalities as seen in the, 
+	this means that all possible states of a spin 1 system can be explained by quantum mechanics.
+	Remember though that there were a few restrictions given.
+	It is quite undeniable that a proof that the inequality covers all of the real states has been found,
+	however nothing has been said about those which require a complex representation. 
+	Therefore, it can be said that the non-contextual inequality given in the article Klyachko et al. [2008] 
+	is violated for all of the real states that exist for a spin 1 system. 
+	To say anything else would require more research.
+Slide26:
+	By removing the requirement that all states only should have real coefficients would open up a whole 
+	new world. One would unfortunately lose the simple visualization, as was preferred in this thesis, 
+	however it would give the full set of states that exist. This would not require much more than was done 
+	in this thesis, simply recalculate the inequalities with complex coefficients and then in some way try to
+	visualize if this covers the full set of states (Bloch sphere).
+
+	
+	As discussed previously, mostly spin $\frac{1}{2}$ systems are of interest 
+	and in this thesis spin 1 systems were discussed. However there exists a whole range of spin systems, 
+	almost all half integers and all integers have their own spin system in nature. Is there any schema that 
+	an include these? This is an interesting question that could be seen as further research from this thesis.
+
+	

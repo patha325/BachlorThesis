@@ -1,0 +1,155 @@
+\chapter{Method}\label{cha:Covering the sphere with noncontextuality inequalities}
+This thesis will be based on the article by~\cite{PhysRevLett.101.020403} and the article by~\cite{Kochen1968The}. In the latter a set of 117 vectors are given. In this chapter the method to create pentagrams and pentagram inequalities using these vectors and the formulation given by~\cite{PhysRevLett.101.020403} is given.  This will be continued in results where this is shown.
+
+Most of the details required to understand the following can be found in the previous introduction, mostly~\ref{sec:intro:Background of quantum mechanics:Operator formalism} and onward.
+ 
+\newpage
+\section{Evaluating the inequality}\label{sec:Covering the sphere with noncontextuality inequalities:Evaluating the inequality}
+In this section an introduction to the inequality will be given. After this it shall be seen if a violation of the inequality can be found and what this means. 
+\subsection{Choosing vectors}\label{subsec:Choosing vectors}
+The operators are projection operators as in  appendix~\ref{cha:Calculations}. 
+In the appendix several states/vectors are used, they are all given below as eigenvectors to these operators. These are all given in the article by ~\cite{Kochen1968The}. Not all of the vectors will produce pentagrams, however those that will can be written as the vectors below and rotations of these.
+In a Carthesian Coordinate system the vectors after normalization are:
+\\
+\begin{equation*}
+\begin{pmatrix}
+0\\
+0\\
+1\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+0\\
+-\sin(\sfrac{\pi}{10})\\
+\cos(\sfrac{\pi}{10})
+\end{pmatrix}
+,
+\begin{pmatrix}
+1\\
+0\\
+0\\
+\end{pmatrix}
+\end{equation*}
+\begin{equation*}
+\begin{pmatrix}
+0\\
+\cos(\sfrac{\pi}{10})\\
+\sin(\sfrac{\pi}{10})\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+-x\sqrt{1-x^2}*\cos(\sfrac{\pi}{10})\\
+-\cos(\sfrac{\pi}{10})\sin(\sfrac{\pi}{10})*(1-x^2)\\
+-\sin(\sfrac{\pi}{10})^2-x^2\cos(\sfrac{\pi}{10})^2\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+x\sqrt{1-x^2}\cos(\sfrac{\pi}{10})\\
+-\cos(\sfrac{\pi}{10})\sin(\sfrac{\pi}{10})(1-x^2)\\
+-\sin(\sfrac{\pi}{10})^2-x^2\cos(\sfrac{\pi}{10})^2)\\
+\end{pmatrix}
+\end{equation*}
+\begin{equation*}
+\begin{pmatrix}
+-\sqrt{1-x^2}\sin(\sfrac{\pi}{10})\\
+-x\\
+0\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+-\sqrt{1-x^2}\sin(\sfrac{\pi}{10})\\
+x\\
+0\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+-x\\
+-\sqrt{1-x^2}\sin(\sfrac{\pi}{10})\\
+\sqrt{1-x^2}\cos(\sfrac{\pi}{10})\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+x\\
+-\sqrt{1-x^2}\sin(\sfrac{\pi}{10})\\
+\sqrt{1-x^2}\cos(\sfrac{\pi}{10})\\
+\end{pmatrix}
+\end{equation*}
+Where x is given by:\\
+\begin{equation*}
+x=\sqrt{\frac{\sfrac{1}{2}}{10+2\sqrt{5}}(5+\sqrt{5}-\sqrt{-50+26\sqrt{5})}}
+\end{equation*}
+These vectors have been taken since they fulfil the properties in the appendix, such that they are pairwise orthogonal. They may look strange at first since if remembered from~\ref{Bloch Sphere} a phase shift of $\pi$, multiplication with $-1$ will not change anything. It should also be noted that from these 10 vectors the remaining 117 can be calculated by rotating these around the x-axis (first component axis) and rotating around the 111-axis, which comes from the article. To be able to understand and use these vectors in an easier way, they are also given below with 4 decimals.\\
+\begin{equation*}
+\begin{pmatrix}
+0.0000\\
+0.0000\\
+1.0000\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+-0.7071\\
+-0.5172\\
+-0.4822\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+-0.5904\\
+-0.8071\\
+0.0000\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+-0.5904\\
+0.8071\\
+0.0000\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+0.7071\\
+-0.5172\\
+-0.4822\\
+\end{pmatrix}
+\end{equation*}
+\begin{equation*}
+\begin{pmatrix}
+0.3892\\
+-0.2847\\
+0.8761\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+-0.7071\\
+-0.5172\\
+-0.4822\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+0.0000\\
+0.9511\\
+0.3090\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+0.7071\\
+-0.5172\\
+-0.4822\\
+\end{pmatrix}
+,
+\begin{pmatrix}
+-0.3892\\
+-0.2847\\
+0.8761\\
+\end{pmatrix}
+\end{equation*}
+\subsection{The inequality}
+The inequality should be violated, as discussed in~\ref{sec:intro:Background of quantum mechanics:Ine}, somewhere inside of the pentagram.
+In what area inside the pentagons is the inequality violated? 
+From the calculations in \appendixref{cha:Calculations}, specifically~\ref{eq:Area1} the inequality~\eqref{eq:Inequality} is, using the vectors above, rewritten as the following:
+\begin{dmath}\label{eq:Area}
+5-4a_2^2-4(-0.5904a_0-0.8071a_1)^2-4(0.7071a_0-0.5172a_1-0.4822a_2)^2
+-4(-0.7071a_0-0.5172a_1-0.4822a_2)^2-4(-0.5904a_0+0.8071a_1)^2 \geq -3
+\end{dmath}
+This will be examined under results where this will be plotted and evaluated.
+\\
+Also, by rotating around the x-axis and the 111-axis there will be overlap of the inequalities, this must be addressed. Some of this is done in the appendix, by setting the equations for the two inequalities equal one can get out the intersecting points and from there calculate the area. However, this is quite tedious work and thus is done numerically, as most of the work above.
+Another interest, which will be seen in the results is if the point (111) is inside the inequality band. If this is true, then the whole sphere will be covered if the rotations around the x-axis creates a complete band. See this in:

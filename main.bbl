@@ -1,0 +1,86 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bell(1964)]{Bell:1964}
+John~S. Bell.
+\newblock {On the Einstein-Podolsky-Rosen paradox}.
+\newblock \emph{Physics}, 1:\penalty0 195--200, 1964.
+
+\bibitem[Bransden and Joachain(2000)]{Bransden:2000}
+B.H. Bransden and C.J. Joachain.
+\newblock \emph{Quantum mechanics}.
+\newblock Pearson Education, second edition, 2000.
+
+\bibitem[Bub and Stairs(2010)]{Bub2010}
+Jeffrey Bub and Allen Stairs.
+\newblock Contextuality in quantum mechanics: Testing the klyachko inequality.
+\newblock 2010.
+\newblock URL \url{http://arxiv.org/abs/1006.0500}.
+
+\bibitem[Clauser et~al.(1969)Clauser, Horne, Shimony, and
+  Holt]{PhysRevLett.23.880}
+John~F. Clauser, Michael~A. Horne, Abner Shimony, and Richard~A. Holt.
+\newblock Proposed experiment to test local hidden-variable theories.
+\newblock \emph{Phys. Rev. Lett.}, 23:\penalty0 880--884, Oct 1969.
+\newblock \doi{10.1103/PhysRevLett.23.880}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.23.880}.
+
+\bibitem[Einstein et~al.(1935)Einstein, Podolsky, and Rosen]{PhysRev.47.777}
+A.~Einstein, B.~Podolsky, and N.~Rosen.
+\newblock Can quantum-mechanical description of physical reality be considered
+  complete?
+\newblock \emph{Phys. Rev.}, 47:\penalty0 777--780, May 1935.
+\newblock \doi{10.1103/PhysRev.47.777}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRev.47.777}.
+
+\bibitem[Klyachko et~al.(2008)Klyachko, Can, Binicio\ifmmode~\breve{g}\else
+  \u{g}\fi{}lu, and Shumovsky]{PhysRevLett.101.020403}
+Alexander~A. Klyachko, M.~Ali Can, Sinem Binicio\ifmmode~\breve{g}\else
+  \u{g}\fi{}lu, and Alexander~S. Shumovsky.
+\newblock Simple test for hidden variables in spin-1 systems.
+\newblock \emph{Phys. Rev. Lett.}, 101:\penalty0 020403, Jul 2008.
+\newblock \doi{10.1103/PhysRevLett.101.020403}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.101.020403}.
+
+\bibitem[Kochen and Specker(1968)]{Kochen1968The}
+Simon Kochen and E.~P. Specker.
+\newblock {The Problem of Hidden Variables in Quantum Mechanics}.
+\newblock \emph{Indiana Univ. Math. J.}, 17\penalty0 (1):\penalty0 59--87,
+  1968.
+\newblock URL \url{http://www.iumj.indiana.edu/IUMJ/dsimplesearch.php}.
+
+\bibitem[Kreyszig(2007)]{Kreyzig}
+Erwin Kreyszig.
+\newblock \emph{Introductory Functional Analysis with Applications}.
+\newblock Wiley classics library. Wiley India Pvt. Limited, 2007.
+\newblock ISBN 9788126511914.
+\newblock URL \url{http://books.google.se/books?id=osXw-pRsptoC}.
+
+\bibitem[Nielsen and Chuang(2010)]{Nielsen:2010}
+Michael~A. Nielsen and Isaac~L. Chuang.
+\newblock \emph{Quantum Computation and Quantum Information}.
+\newblock Cambridge University Press, 10th edition, 2010.
+
+\bibitem[Saulder(2007)]{Grund}
+Christoph Saulder.
+\newblock Grundlagen der modernen quantenphysik.
+\newblock dec 2007.
+\newblock URL
+  \url{http://www.unet.univie.ac.at/~a0400944/download/Studium/Grundlagen_Quantenphysik/Handout.pdf}.
+
+\bibitem[Schr\"{o}dinger(1926)]{Schrodinger:1926}
+E~Schr\"{o}dinger.
+\newblock Quantisierung als eigenwertproblem.
+\newblock \emph{Annalen der Physik, vol. 385, Issue 13, pp.437-490}, 1926.
+
+\bibitem[Schr\"{o}dinger(1980)]{Schrodinger:1980}
+E.~Schr\"{o}dinger.
+\newblock {The Present Situation in Quantum Mechanics: A Translation of
+  Schr\"{o}dinger's Cat Paradox Paper}.
+\newblock \emph{Proceedings of the American Philosophical Society}, 124, 1980.
+
+\end{thebibliography}

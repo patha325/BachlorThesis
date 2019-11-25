@@ -1,0 +1,48 @@
+\cftpagenumbersoff {part}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {swedish}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}The main question in this thesis}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Background of quantum mechanics}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}The origin of quantum mechanics}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Dirac bra-ket notation}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Operator formalism}{3}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Commutating operators}{4}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Finite dimentional quantum-states}{4}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Bloch Sphere}{4}{subsection.1.2.6}
+\contentsline {section}{\numberline {1.3}Non-contextuality inequalities}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}What is contextuality?}{6}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}How do we get the contextual inequalities?}{6}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}The CHSH inequality}{6}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Kochen\IeC {\textendash }Specker theorem}{7}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}The inequality}{8}{subsection.1.3.5}
+\contentsline {chapter}{\numberline {2}Method}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Evaluating the inequality}{10}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Choosing vectors}{10}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The inequality}{11}{subsection.2.1.2}
+\contentsline {chapter}{\numberline {3}Results}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pentagram produced by the vectors}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Violation of the inequality}{15}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Producing more pentagrams}{16}{section.3.2}
+\contentsline {section}{\numberline {3.3}Producing even more pentagrams}{19}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}In the sphere covered?}{22}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Discussion}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Was the sphere covered by inequalities?}{24}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}What does this imply?}{24}{subsection.4.1.1}
+\contentsline {chapter}{\numberline {5}Conclusions}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusion}{26}{section.5.1}
+\contentsline {section}{\numberline {5.2}Further research to be done}{26}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Calculating with complex coefficients}{26}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Other spin systems}{26}{subsection.5.2.2}
+\contentsline {chapter}{\numberline {A}Calculations}{29}{appendix.A}
+\contentsline {section}{\numberline {A.1}Finding the non-contextual area}{29}{section.A.1}
+\contentsline {chapter}{Bibliography}{33}{appendix*.17}
+\select@language {swedish}
+\select@language {english}
+\select@language {english}
+\select@language {english}
